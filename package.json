@@ -18,6 +18,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
+    "homepage": "https://hakim2999.github.io/Todo-List/",
     "eslintConfig": {
         "extends": [
             "react-app",
