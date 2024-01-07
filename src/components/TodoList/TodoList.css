@@ -1,0 +1,177 @@
+.todo-sub-container {
+    height: 90%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.empty-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cactus {
+    height: 50%;
+}
+
+.empty-line {
+    font-family: "Sofia";
+    color: rgb(237, 234, 234);
+}
+
+.todo-list-container {
+    height: auto;
+    overflow: scroll;
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+.todo-item-div {
+    width: 95%;
+    height: 40px;
+    border: 0.1ex solid #4f5668;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-item-div-dark {
+    width: 95%;
+    height: 40px;
+    border: 0.1ex solid #4f5668;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-item-div:hover {
+    background-color: rgb(94, 91, 91);
+}
+
+.todo-item-div-dark:hover {
+    background-color: rgb(206, 202, 202);
+}
+
+.checkbox {
+    appearance: none;
+    height: 19px;
+    width: 19px;
+    margin: 0px 15px;
+    color: black;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: relative;
+}
+
+.checkbox:checked {
+    background-color: #93ccff;
+    border: 1px solid rgb(26, 25, 25);
+}
+
+.checkbox::before {
+    content: "\2713";
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.checkbox:checked::before {
+    display: block;
+}
+
+.todoItem {
+    color: rgb(208, 205, 205);
+    font-family: "Lucida Sans Unicode";
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.todoItem-dark {
+    color: rgb(40, 39, 39);
+    font-family: "Lucida Sans Unicode";
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.removeIcon {
+    height: 19px;
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.removeIcon-dark {
+    height: 19px;
+    margin-left: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #24273d;
+    font-family: "Roboto";
+}
+
+.todo-item-div:hover .removeIcon {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.input-border-change {
+    border: 1px solid #93ccff;
+}
+
+.text-decoration {
+    text-decoration: line-through;
+    color: #afb2b7;
+}
+
+.text-decoration-dark {
+    text-decoration: line-through;
+    color: #7a7c7e;
+}
+
+@media(max-width: 990px) {
+    .todo-app-sub-container {
+        width: 83%;
+        height: 75%;
+        margin-bottom: 40px;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer a {
+        font-size: 10px;
+    }
+    .footer span {
+        font-size: 10px;
+    }
+    .todo-heading {
+        font-size: 30px;
+    }
+}

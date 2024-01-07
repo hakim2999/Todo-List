@@ -1,0 +1,32 @@
+/* TodoApp.css */
+
+body {
+    margin: 0;
+}
+
+.todo-app-main-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(360deg, #181824 75%, transparent 25%, transparent 100%), url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1703615838/sea-2755908_rkgpj1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-app-main-container-dark {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(360deg, rgb(206, 202, 202) 75%, transparent 25%, transparent 100%), url("https://res.cloudinary.com/dwgg5pyqk/image/upload/v1703615838/sea-2755908_rkgpj1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-app-sub-container {
+    height: 85%;
+    width: 40%;
+    margin-bottom: 20px;
+}

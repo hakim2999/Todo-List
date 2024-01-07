@@ -1,0 +1,23 @@
+.heading-themeIcon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+
+.todo-heading {
+    color: white;
+    font-family: "Sofia";
+}
+
+.icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.icon :hover {
+    transform: scale(1.2);
+}

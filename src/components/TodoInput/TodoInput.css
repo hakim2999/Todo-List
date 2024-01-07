@@ -1,0 +1,62 @@
+.input-container {
+    height: 10%;
+    box-shadow: 0.3px 1px 1px 0px #1e1e1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-sub-container {
+    width: 95%;
+    height: 70%;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    border: 0.1ex solid #4f5668;
+    padding: 0px;
+}
+
+.input {
+    width: 78%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: rgb(205, 201, 201);
+    padding-left: 10px;
+}
+
+.input-dark {
+    width: 78%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.add-todo-button {
+    width: 22%;
+    height: 100%;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #93ccff;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.add-todo-button-dark {
+    background-color: #4f5668;
+    color: white;
+}
+
+.add-todo-button:hover {
+    background-color: #86b8e4;
+}
+
+.add-todo-button-dark:hover {
+    background-color: #414654;
+}

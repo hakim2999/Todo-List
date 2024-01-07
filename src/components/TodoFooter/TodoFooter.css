@@ -1,0 +1,23 @@
+/* TodoFooter.css */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: right;
+}
+
+.footer a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Bree Serif";
+}
+
+.footer span {
+    font-size: 14px;
+    font-family: "Sofia";
+    color: white;
+}
