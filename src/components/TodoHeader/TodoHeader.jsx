@@ -8,7 +8,7 @@ const TodoHeader = ({ darkMode, onThemeToggle }) => {
       <button className="icon" onClick={onThemeToggle}>
         <img
           id="icon-image"
-          src={darkMode ? "/assets/icons/dark-mode.svg" : "/assets/icons/light-mode.svg"}
+          src={darkMode ? "assets/icons/dark-mode.svg" : "assets/icons/light-mode.svg"}
           alt="theme-mode"
         />
       </button>
